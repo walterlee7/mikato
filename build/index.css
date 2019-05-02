@@ -49,23 +49,26 @@
     background-color: blue;
     background: url("img/links-bg.gif") no-repeat;
     background-repeat: repeat-y;
-    background-size: cover;
+    background-size: contain;
     width: 82%;
 }
 
 .link {
-    /* display: block; */
+    display: block;
     /* float: left; */
     background: URL('img/link-off.jpg');
-    width: 145px;
-    height: 29px;
+    /* width: 145px;
+    height: 29px; */
     /* text-indent: 15px; */
     /* padding-top: 5px; */
+    width: 150px;
+    margin: 0 auto;
     text-decoration: none;
     font-weight: bold;
     color: #000000;
     padding-left: 0px;
     padding-right: 0px;
+    z-index: 2;
 }
 
 #link-left {
