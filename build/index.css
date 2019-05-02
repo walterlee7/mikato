@@ -36,7 +36,48 @@
     min-height: 250px;
 }
 
+#logo {
+    vertical-align: bottom;
+    width: 205;
+    height: 90;
+    margin: 0 auto;
+}
+
+#links {
+    margin: 0 auto;
+    padding: 0;
+    background-color: blue;
+    background: url("img/links-bg.gif") no-repeat;
+    background-repeat: repeat-y;
+    background-size: cover;
+    width: 82%;
+}
+
+.link {
+    /* display: block; */
+    /* float: left; */
+    background: URL('img/link-off.jpg');
+    width: 145px;
+    height: 29px;
+    /* text-indent: 15px; */
+    /* padding-top: 5px; */
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#link-left {
+    width: 45px;
+}
+
+/* #link-right {
+    width: 15px;
+} */
+
 #table-bottom {
+    border-top: 0.4px solid rgb(129, 156, 197);
     border-spacing: 0;
     padding: 0;
     text-align: center;
