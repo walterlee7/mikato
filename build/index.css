@@ -55,13 +55,11 @@
 
 .link {
     display: block;
-    /* float: left; */
     background: URL('img/link-off.jpg');
-    /* width: 145px;
-    height: 29px; */
-    /* text-indent: 15px; */
-    /* padding-top: 5px; */
-    width: 150px;
+    background-size: cover;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 170px;
     margin: 0 auto;
     text-decoration: none;
     font-weight: bold;
@@ -69,6 +67,7 @@
     padding-left: 0px;
     padding-right: 0px;
     z-index: 2;
+    font-size: 10px;
 }
 
 #link-left {
