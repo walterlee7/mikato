@@ -20,9 +20,9 @@
                 <img class="woodHeader-img" src="img/wood-header.gif" alt="wood header" width="780">
             </td>
         </tr>
-        <tr>
-            <!-- <td background="img/wood-left.gif" height="100%" width="41" vertical-align="top">
-                <table width="100%" height="100%" border-spacing="0" padding="0">
+        <tr id="body-wrapper">
+            <!-- <td id="wood-left">
+                <table id="wood-left-table">
                     <tr>
                         <td height="93"><img src="img/wood-top-left.gif" alt="wood top left" width="41" height="93">
                         </td>
@@ -36,6 +36,11 @@
                     </tr>
                 </table>
             </td> -->
+
+            <!-- <td id="wood-left">
+                <div id="wood-left"></div>
+            </td> -->
+
             <td>
                 <table id="table-top" background="img/header-bg.gif">
                     <tr>
@@ -54,14 +59,15 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td colspan="3"><img src="img/links-bottom.png" width="175" height="15"
-                                            alt="links-bottom"></td>
+                                    <td>
+                                        <img src="img/links-bottom.png" width="175" height="15" alt="links-bottom">
+                                    </td>
                                 </tr>
                             </table>
                         </td>
 
-                        <td vertical-align="top">
-                            <!-- <script language="javascript" type="text/javascript">
+                        <td id="slideshow">
+                            <script language="javascript" type="text/javascript">
                                 var slideshow_width = '363px' //SET IMAGE WIDTH
                                 var slideshow_height = '230px' //SET IMAGE HEIGHT
                                 var pause = 3000 //SET PAUSE BETWEEN SLIDE (3000=3 seconds)
@@ -110,7 +116,7 @@
                                     window.onload = startit;
                                 else
                                     setInterval("rotateimage()", pause);
-                            </script> -->
+                            </script>
                         </td>
                     </tr>
                 </table>
@@ -122,7 +128,6 @@
                                     Welcome to Mikato Japanese Seafood Steakhouse & Sushi Bar
                                 </h2>
                                 <div class="art-postcontent">
-                                    <!-- article-content -->
                                     <hr />
                                     <p class="style8" style="text-align: center;"></p>
                                     <p class="style8" style="text-align: center;"><span
@@ -161,14 +166,7 @@
                                     <p text-align="center"><span
                                             style="font-family: Book Antiqua, Palatino, serif; font-size: medium;">Telephone:<strong><br />850-235-1338</strong></span>
                                     </p>
-                                    <p text-align="center"></p>
-                                    <hr />
-                                    <p text-align="center"></p>
-                                    <p text-align="center"></p>
-                                    <!-- InstanceEndEditable -->
-                                    <!-- /article-content -->
                                 </div>
-                                <div class="cleared"></div>
                             </div>
                         </td>
                     </tr>
@@ -179,7 +177,12 @@
                     </tr>
                 </table>
             </td>
-            <!-- <td background="img/wood-right.gif" height="100%" vertical-align="top" width="46">
+
+            <!-- <td>
+                <div id="wood-right"></div>
+            </td> -->
+
+            <!-- <td id="wood-right">
                 <table width="100%" height="100%" border-spacing="0" padding="0">
                     <tr>
                         <td height="96"><img src="img/wood-top-right.gif" alt="wood top right" width="46" height="96">

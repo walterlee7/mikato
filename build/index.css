@@ -18,10 +18,11 @@
 }
 
 .woodHeader-img {
-    /* height: 100%;
-    width: 90%;
-    margin: 0; */
     vertical-align: bottom;
+}
+
+#body-wrapper {
+    background-color: blue;
 }
 
 #table-top {
@@ -34,6 +35,7 @@
     margin-right: auto;
     min-width: 693px;
     min-height: 250px;
+    background-repeat: repeat;
 }
 
 #logo {
@@ -41,13 +43,14 @@
     width: 205;
     height: 90;
     margin: 0 auto;
+    margin-top: 0.1em;
 }
 
 #links {
     margin: 0 auto;
     padding: 0;
     background-color: blue;
-    background: url("img/links-bg.gif") no-repeat;
+    background: url("img/links-bg.gif");
     background-repeat: repeat-y;
     background-size: contain;
     width: 82%;
@@ -70,13 +73,27 @@
     font-size: 10px;
 }
 
-#link-left {
+#slideshow {
+    padding-top: 0.14em;
+    padding-left: 2.7em;
+}
+
+#wood-left {
+    background: url("img/wood-left.gif");
+    background-repeat: repeat-y;
+    white-space: nowrap;
+    background-color: red;
+    height: 100%;
     width: 45px;
 }
 
-/* #link-right {
-    width: 15px;
-} */
+#wood-right {
+    background: url("img/wood-right.gif");
+    background-repeat: repeat-y;
+    white-space: nowrap;
+    height: 100%;
+    width: 100%;
+}
 
 #table-bottom {
     border-top: 0.4px solid rgb(129, 156, 197);
@@ -197,9 +214,9 @@ body,table,td,tr,th,a {
     height: 22px;
   }
 
-  a.Header_Links:hover {
-    color: #000000;
-    height: 22px;
+  a.link:hover {
+    color: #2b50c9;
+    z-index: 5;
   }
 
   a.mm {
