@@ -22,7 +22,7 @@
 }
 
 #body-wrapper {
-    background-color: blue;
+    display: inline-block;
 }
 
 #table-top {
@@ -82,9 +82,8 @@
     background: url("img/wood-left.gif");
     background-repeat: repeat-y;
     white-space: nowrap;
-    background-color: red;
     height: 100%;
-    width: 45px;
+    width: 40px;
 }
 
 #wood-right {
@@ -92,7 +91,7 @@
     background-repeat: repeat-y;
     white-space: nowrap;
     height: 100%;
-    width: 100%;
+    width: 45px;
 }
 
 #table-bottom {
