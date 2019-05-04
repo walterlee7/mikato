@@ -1,4 +1,3 @@
-
 var ns4 = document.layers;
 var ns6 = document.getElementById && !document.all;
 var ie4 = document.all;
@@ -6,17 +5,6 @@ var opr = navigator.userAgent.indexOf("Opera");
 
 if (ie4 || ns6)
     document.onclick = hidemenu;
-
-// image1 = new Image();
-// image1.src = "grafx/b_1on.gif";
-// image2 = new Image();
-// image2.src = "grafx/b_2on.gif";
-// image3 = new Image();
-// image3.src = "grafx/b_3on.gif";
-// image4 = new Image();
-// image4.src = "grafx/b_4on.gif";
-// image5 = new Image();
-// image5.src = "grafx/b_5on.gif";
 
 //Contents for menu 1
 var menu1 = new Array();
