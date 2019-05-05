@@ -132,6 +132,14 @@ body,table,td,tr,th,a {
     padding: 0;
 }
 
+#drink-table {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
   .Title_TitleBG {
     background: url("img/top-bg.gif");
     color: #6F2330;
