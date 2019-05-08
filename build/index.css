@@ -49,7 +49,7 @@
 #links {
     margin: 0 auto;
     padding: 0;
-    background-color: blue;
+    background-color: rgb(250, 226, 148);
     background: url("img/links-bg.gif");
     background-repeat: repeat-y;
     background-size: contain;
