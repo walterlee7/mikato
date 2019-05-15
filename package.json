@@ -16,5 +16,8 @@
     "bugs": {
         "url": "https://github.com/walterlee7/mikato/issues"
     },
-    "homepage": "https://walterlee7.github.io/mikato"
+    "homepage": "https://walterlee7.github.io/mikato",
+    "devDependencies": {
+        "gh-pages": "^2.0.1"
+    }
 }
