@@ -1,1 +1,1 @@
-This is my old-school teppanyaki and sushi restaurant website.
+This is my teppanyaki and sushi restaurant website that was originally designed by Ian LeBlanc, but I have taken over the website.
