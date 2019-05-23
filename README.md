@@ -1,1 +1,1 @@
-This is my teppanyaki and sushi restaurant website that was originally designed by Ian LeBlanc in 2009, but I have taken over the website.
+This is my teppanyaki and sushi restaurant website that was originally designed by Ian LeBlanc in 2009, but I have taken over the website in order to spruce it up to my specifications.
