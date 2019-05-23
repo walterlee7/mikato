@@ -182,17 +182,19 @@
         </tr>
     </table>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.js"
-        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous">
+    </script>
 
 <script type="text/javascript">
     $('#mikato-container').css('opacity', 0);
-    $(window).load(function () {
+    $(window).on(function () {
         $('#mikato-container').css('opacity', 1);
     });
     $(document).ready(function () {
-        setTimeout('$("#mikato-container").css("opacity", 1)', 800);
+        setTimeout('$("#mikato-container").css("opacity", 1)', 90);
     });
 </script>
 
