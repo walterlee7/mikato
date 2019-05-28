@@ -232,6 +232,19 @@ body,table,td,tr,th,a {
     box-shadow: rgba(0, 0, 0, 0.514) 7px 7px 7px;
 }
 
+#menuTitles {
+    border: 1px solid black;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5px;
+    padding: 0.2em;
+    background-color: rgb(255, 221, 177);
+    box-shadow: rgba(0, 0, 0, 0.514) 5px 5px 5px;
+}
+
 
 .menuDinners, .menuAppetizers, .menuSalads {
     left: 0;
