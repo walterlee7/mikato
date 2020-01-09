@@ -436,7 +436,7 @@ body,table,td,tr,th,a {
   @media screen and (max-width: 420px) {
 
     body {
-        zoom: 0.55;
+        zoom: 0.6;
     }
 
   }
