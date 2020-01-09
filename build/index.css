@@ -432,3 +432,11 @@ body,table,td,tr,th,a {
   .cart, cartBlack {
     color: #000000;
   }
+
+  @media screen and (max-width: 420px) {
+
+    body {
+        zoom: 0.55;
+    }
+
+  }
