@@ -435,6 +435,15 @@ body,table,td,tr,th,a {
 
   @media screen and (max-width: 420px) {
 
+    #table-bottom {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .table-bottom-hibachi {
+        width: 695px !important;
+    }
+
     body {
         zoom: 0.55;
     }
