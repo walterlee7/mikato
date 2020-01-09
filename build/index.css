@@ -440,6 +440,10 @@ body,table,td,tr,th,a {
         margin-right: 0 !important;
     }
 
+    .table-bottom-home {
+        min-width: 695px !important;
+    }
+
     .table-bottom-hibachi {
         width: 695px !important;
     }
